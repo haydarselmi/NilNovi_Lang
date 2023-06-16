@@ -1,0 +1,14 @@
+//-----------------------------------------------------------------------
+// Programme incorrect
+//    M. Guyomard
+//
+// ecriture d'expressions booleennes 
+//-----------------------------------------------------------------------
+
+
+procedure e is
+  b: boolean;
+begin
+  b:=false;
+  put(b)    //mess. erreur attendu ici
+end.

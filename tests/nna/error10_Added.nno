@@ -1,0 +1,12 @@
+//-----------------------------------------------------------------------
+// Programme incorrect
+//    
+//
+// variable non initialisée 
+//-----------------------------------------------------------------------
+
+procedure e is
+    b: integer;
+begin
+  put(b)    //mess. erreur attendu ici
+end.

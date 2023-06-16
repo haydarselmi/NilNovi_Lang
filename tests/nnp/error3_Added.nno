@@ -1,0 +1,20 @@
+//----------------------------------------------------
+// Programme incorrect
+//
+//    Utilisation d'une fonction avec un nombre
+//    incorrect de paramètres
+//
+//------------------------------------------------------
+
+procedure e is
+
+  function triple(a:integer) return integer is
+  begin
+    return a*3
+  end;
+
+  c: integer;
+begin
+  c:=8;
+  put(triple(c,5))
+end.

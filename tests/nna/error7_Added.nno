@@ -1,0 +1,24 @@
+//-----------------------------------------------
+//  programme incorrect
+//  
+//  Fichier créé pour tester l'erreur sémantique
+//  des diagramme B.25 (expression) et B.26
+// (exp1)
+//
+//  Utilisation de termes non booléens avec les
+//  mot clé "or" et "and"
+//-----------------------------------------------  
+
+procedure e is
+  a:integer;
+  b:integer;
+begin
+  a:=5;
+  b:=8;
+  // change "or" by "and" to test B.26
+  if a or b then
+    put(0)
+  end
+end.
+
+

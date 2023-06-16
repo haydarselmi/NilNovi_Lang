@@ -1,0 +1,23 @@
+//----------------------------------------------------
+// Programme incorrect
+//
+//   Utilisation d'une fonction avec des types de
+//    paramètres incorrects 
+//
+//------------------------------------------------------
+
+procedure e is
+
+  function add(a,b:integer) return integer is
+  begin
+    return a+b
+  end;
+  c: integer;
+  d: boolean;
+  s: integer;
+begin
+  c:=8;
+  d:=true;
+  s:=3;
+  put(add(s,d))
+end.

@@ -1,0 +1,23 @@
+//----------------------------------------------------
+// Programme incorrect
+//
+//    Utilisation d'une fonction avec un type de
+//    paramètre incorrect : utiliser un booléen 
+//    alors qu'il faut un entier
+//
+//------------------------------------------------------
+
+
+procedure e is
+
+  function triple(a: integer) return integer is
+  begin
+    return a*3
+  end;
+
+  b: boolean;
+  c: integer;
+begin
+  b:=true;
+  put(triple(b))
+end.

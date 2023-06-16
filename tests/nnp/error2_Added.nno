@@ -1,0 +1,26 @@
+//----------------------------------------------------
+// Programme incorrect
+//
+//    Utilisation d'une fonction avec un type de
+//    paramètre incorrect : utiliser un entier 
+//    alors qu'il faut un booléen
+//
+//------------------------------------------------------
+
+
+procedure e is
+  function inverse(a: boolean) return boolean is
+  d: boolean;
+  begin
+    if a = true then
+      return false
+    else 
+      return true
+    end
+  end;
+  b: boolean;
+  c: integer;
+begin
+  c:=5;
+  put(inverse(c));
+end.

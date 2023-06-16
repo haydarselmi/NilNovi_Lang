@@ -1,0 +1,18 @@
+//-----------------------------------------------
+//  programme incorrect
+//  
+//  Fichier créé pour tester 
+//  l'utilsiation de variables non
+//  initialisées
+//
+//  
+//-----------------------------------------------  
+
+procedure e is
+  a:integer;
+  b:integer;
+begin
+  b:=a+8;
+end.
+
+

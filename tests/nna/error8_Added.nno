@@ -1,0 +1,18 @@
+//-----------------------------------------------
+//  programme incorrect
+//  
+//  Fichier créé pour tester l'erreur sémantique
+//  des diagramme B.27 (exp2) 
+//
+//  Opérations de calcul avec des termes qui ne
+//  sont pas entiers
+//-----------------------------------------------  
+
+procedure e is
+  c:integer;
+  d:boolean;
+begin
+  c:=5;
+  d:=8*true;
+ 
+end.

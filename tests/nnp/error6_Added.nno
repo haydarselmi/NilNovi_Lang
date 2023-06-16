@@ -1,0 +1,26 @@
+//----------------------------------------------------
+// Programme incorrect
+//
+//    Utilisation d'une fonction avec un type de
+//    paramètre incorrect : utiliser un booléen 
+//    alors qu'il faut un entier
+//
+//------------------------------------------------------
+
+
+procedure e is
+
+  procedure add(a,b:integer) is
+  begin
+    put(a+b)
+  end;
+
+  b: boolean;
+  c: integer;
+  e: integer;
+begin
+  b:=true;
+  c:=3;
+  e:=5;
+  add(c)
+end.
